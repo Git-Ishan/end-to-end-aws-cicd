@@ -34,7 +34,7 @@ This project helped me understand how modern DevOps teams automate software deli
 ## 🏗 Architecture
 
 <p align="center">
-<img width="900"  alt="architecture" src="https://github.com/user-attachments/assets/a16ce017-2eb4-4599-b0c7-c2b1321c4447" />
+<img width="900"  alt="architecture" src="architecture/architecture.png" />
 </p>
 
 
@@ -131,7 +131,7 @@ Every new commit pushed to the repository automatically triggers the CI/CD pipel
 ### Screenshot
 
 <p align="center">
-<img width="1119" height="699" alt="bitbucket repository" src="https://github.com/user-attachments/assets/973e60ec-0fa9-4e78-bc45-dcd5cf5c2876" />
+<img width="1119" height="699" alt="bitbucket repository" src="screenshots/01-bitbucket repository.png" />
 </p>
 
 ---
@@ -152,7 +152,7 @@ It performs the following tasks:
 ### Build Specification
 
 <p align="center">
-<img width="1105" height="638" alt="buildspec yml" src="https://github.com/user-attachments/assets/fbdaa6ce-25bb-4db0-a4a1-826cf8da2349" />
+<img width="1105" height="638" alt="buildspec yml" src="screenshots/02-buildspec.yml.png" />
 </p>
 
 The project uses a `buildspec.yml` file to define each build phase:
@@ -165,13 +165,13 @@ The project uses a `buildspec.yml` file to define each build phase:
 ### CodeBuild Project
 
 <p align="center">
-<img width="1106" height="613" alt="codeBuild project" src="https://github.com/user-attachments/assets/005bf530-e96f-411c-be93-8a592d815357" />
+<img width="1106" height="613" alt="codeBuild project" src="screenshots/03-codeBuild project.png" />
 </p>
 
 ### Successful Build History
 
 <p align="center">
-<img width="869" height="482" alt="successful build history" src="https://github.com/user-attachments/assets/4b16b491-f693-4a7e-bd85-40a0499aa19b" />
+<img width="869" height="482" alt="successful build history" src="screenshots/04-successful build history.png" />
 </p>
 
 ---
@@ -185,7 +185,7 @@ AWS CodePipeline retrieves this artifact during the deployment stage and passes 
 ### Screenshot
 
 <p align="center">
-<img width="1111" height="593" alt="s3 bucket" src="https://github.com/user-attachments/assets/30ff80dd-9f1d-4a7a-b61c-12c33a23da7e" />
+<img width="1111" height="593" alt="s3 bucket" src="screenshots/05-s3 bucket.png" />
 </p>
 
 ---
@@ -208,13 +208,13 @@ The deployment policy was configured as **Rolling Deployment** with a **50% batc
 ### Elastic Beanstalk Environment
 
 <p align="center">
-<img width="1101" height="637" alt="elastic beanstalk environment" src="https://github.com/user-attachments/assets/9db5302b-4eb1-4792-bc5c-d7c7ac7976d6" />
+<img width="1101" height="637" alt="elastic beanstalk environment" src="screenshots/06-elastic beanstalk environment.png" />
 </p>
 
 ### Running Application
 
 <p align="center">
-<img width="1119" height="641" alt="elastic beanstalk application url" src="https://github.com/user-attachments/assets/a478f662-6b82-4858-bece-1132a475ea2b" />
+<img width="1119" height="641" alt="elastic beanstalk application url" src="screenshots/07-elastic beanstalk application url.png" />
 </p>
 
 ---
@@ -234,13 +234,13 @@ Database Tables:
 ### Amazon RDS
 
 <p align="center">
-<img width="1102" height="611" alt="amazonrds" src="https://github.com/user-attachments/assets/78f07849-ed76-4cc8-bb0c-cdcb209f81bd" />
+<img width="1102" height="611" alt="amazonrds" src="screenshots/08-amazonrds.png" />
 </p>
 
 ### Database Verification
 
 <p align="center">
-<img width="1119" height="468" alt="database tables" src="https://github.com/user-attachments/assets/db4db607-c971-430d-b9a0-5371a6e0f5ce" />
+<img width="1119" height="468" alt="database tables" src="screenshots/09-database tables.png" />
 </p>
 
 ---
@@ -259,7 +259,7 @@ Benefits:
 ### Screenshot
 
 <p align="center">
-<img src="screenshots/loadbalancer.png" width="900">
+<img src="screenshots/10-load balancer.png" width="900">
 </p>
 
 ---
@@ -279,7 +279,7 @@ This configuration ensures that one instance remains available while the other i
 ### Screenshot
 
 <p align="center">
-<img src="screenshots/autoscaling.png" width="900">
+<img src="screenshots/11-auto scaling group.png" width="900">
 </p>
 
 ---
@@ -299,7 +299,7 @@ Developers don't have to manually configure or manage the infrastructure.
 ### Screenshot
 
 <p align="center">
-<img src="screenshots/ec2.png" width="900">
+<img src="screenshots/12-ec2 instances.png" width="900">
 </p>
 
 ---
@@ -319,7 +319,7 @@ This eliminates manual deployments and provides a repeatable deployment process.
 ### Pipeline Execution
 
 <p align="center">
-<img src="screenshots/codepipeline.png" width="900">
+<img src="screenshots/13-codepipeline.png" width="900">
 </p>
 
 ---
@@ -425,7 +425,7 @@ B.Tech Computer Science Engineering
 Cloud & DevOps Enthusiast
 
 - GitHub: https://github.com/Git-Ishan
-- LinkedIn: *(Add your LinkedIn URL here)*
+- LinkedIn: *(https://www.linkedin.com/in/ishan-chaturvedi-428094283/)*
 
 ---
 
